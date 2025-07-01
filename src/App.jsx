@@ -19,17 +19,18 @@ function App() {
           height: "100vh",
           marginTop: "55px",
           padding: 0,
+          borderBottom: "1px solid red",
         }}
       >
-        <div class="card bg-dark">
-          <h5 class="card-header bg-white bg-gradient">Featured</h5>
-          <div class="card-body text-white">
-            <h5 class="card-title">Secure Your Home</h5>
-            <p class="card-text">
+        <div className="card bg-dark w-50">
+          <h5 className="card-header text-white bg-gradient">Featured</h5>
+          <div className="card-body text-white">
+            <h5 className="card-title text-warning">Secure Your Home</h5>
+            <p className="card-text">
               With supporting text below as a natural lead-in to additional
               content.
             </p>
-            <a href="#" class="btn btn-danger">
+            <a href="#" className="btn btn-danger text-dark">
               <i className="bi bi-arrow-right-circle-fill"></i> Explore Now
             </a>
           </div>
@@ -46,7 +47,10 @@ function App() {
             style={{ maxWidth: "100%", height: "auto" }}
           />
         </div>
-        <div className="col-md-6 text-white bg-dark p-5 d-flex flex-column justify-content-center align-items-center">
+        <div
+          className="col-md-6 text-white bg-dark p-5 d-flex flex-column justify-content-center align-items-center"
+          style={{ borderBottom: "3px solid grey" }}
+        >
           <p className=" mb-4 text-light">
             <span className="text-warning text-uppercase fs-lg fw-bold">
               Remote Guru
@@ -56,7 +60,7 @@ function App() {
             smart locks, or professional installation services, we've got you
             covered.
           </p>
-          <button className="btn btn-danger rounded">Read More</button>
+          <button className="btn btn-lg btn-primary rounded">Read More</button>
         </div>
       </section>
     </>
