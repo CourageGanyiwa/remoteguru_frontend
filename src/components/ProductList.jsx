@@ -38,7 +38,7 @@ function ProductList() {
           <div className="card col-md-6 col-12 text-light border-0">
             <img
               src={
-                "./src/assets/3D security verification icon isolated on transparent background (1).jpg"
+                ".,/src/assets/3D security verification icon isolated on transparent background (1).jpg"
               }
               className="card-img-top"
             />
