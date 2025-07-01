@@ -20,12 +20,12 @@ function ProductList() {
           <div className="card col-md-6 col-12 text-light border-0">
             <img
               src={
-                "./src/assets/3D security verification icon isolated on transparent background (1).jpg"
+                ".\\src\\assets\\3D security verification icon isolated on transparent background (1).jpg"
               }
               className="card-img-top"
             />
             <div className="card-body bg-dark ">
-              <h5 className="card-title">Products</h5>
+              <h5 className="card-title">Card title</h5>
               <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card’s content.
@@ -38,12 +38,12 @@ function ProductList() {
           <div className="card col-md-6 col-12 text-light border-0">
             <img
               src={
-                "remote-guru-app/src/assets/3D security verification icon isolated on transparent background (1).jpg"
+                ".\\src\\assets\\3D security verification icon isolated on transparent background (1).jpg"
               }
               className="card-img-top"
             />
             <div className="card-body bg-dark ">
-              <h5 className="card-title">Services</h5>
+              <h5 className="card-title">Card title</h5>
               <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card’s content.
