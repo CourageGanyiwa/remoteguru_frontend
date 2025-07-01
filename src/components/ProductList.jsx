@@ -1,6 +1,8 @@
 // Example: src/components/ProductList.js
 
 import React, { useEffect, useState } from "react";
+const pic1 =
+  ".\\src\\assets\\3D security verification icon isolated on transparent background (1).jpg";
 
 function ProductList() {
   const [products, setProducts] = useState([]);
@@ -18,12 +20,7 @@ function ProductList() {
         <h2 className="mb-4 text-dark">Products and Services</h2>
         <div className="container-fluid row d-flex justify-content-evenly align-items-center flex-wrap">
           <div className="card col-md-6 col-12 text-light border-0">
-            <img
-              src={
-                ".\\src\\assets\\3D security verification icon isolated on transparent background (1).jpg"
-              }
-              className="card-img-top"
-            />
+            <img src={pic1} className="card-img-top" />
             <div className="card-body bg-dark ">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">
@@ -36,12 +33,7 @@ function ProductList() {
             </div>
           </div>
           <div className="card col-md-6 col-12 text-light border-0">
-            <img
-              src={
-                ".\\src\\assets\\3D security verification icon isolated on transparent background (1).jpg"
-              }
-              className="card-img-top"
-            />
+            <img src={pic1} className="card-img-top" />
             <div className="card-body bg-dark ">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">

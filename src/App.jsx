@@ -2,6 +2,8 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import hero from "./assets/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.webp";
+import pic1 from "./assets/3D security verification icon isolated on transparent background.jpg";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,8 +13,7 @@ function App() {
       <div
         className="hero-image d-flex align-items-center justify-content-center"
         style={{
-          backgroundImage:
-            'url("./src/assets/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.webp")',
+          backgroundImage: `url(${hero})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100vw",
@@ -37,18 +38,16 @@ function App() {
         </div>
       </div>
       <section className="container-fluid row d-flex justify-content-center align-items-center">
-        <div className="col-md-6 d-flex justify-content-center align-items-center p-5">
+        <div className="col-md-7 d-flex justify-content-center align-items-center p-5 ">
           <img
-            src={
-              "./src/assets/3D security verification icon isolated on transparent background.jpg"
-            }
+            src={pic1}
             alt=""
             className="img-fluid w-100 h-100 rounded"
-            style={{ maxWidth: "100%", height: "auto" }}
+            style={{ width: "100%", height: "auto" }}
           />
         </div>
         <div
-          className="col-md-6 text-white bg-dark p-5 d-flex flex-column justify-content-center align-items-center"
+          className="container-fluid col-md-5 text-white bg-dark p-5 d-flex flex-column justify-content-center align-items-center "
           style={{ borderBottom: "3px solid grey" }}
         >
           <p className=" mb-4 text-light">
