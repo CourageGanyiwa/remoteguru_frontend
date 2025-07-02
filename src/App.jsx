@@ -23,7 +23,7 @@ function App() {
           borderBottom: "1px solid red",
         }}
       >
-        <div className="card bg-dark w-50">
+        <div className="card bg-dark w-50 d-none d-md-block">
           <h5 className="card-header text-white bg-gradient">Featured</h5>
           <div className="card-body text-white">
             <h5 className="card-title text-warning">Secure Your Home</h5>
@@ -36,6 +36,9 @@ function App() {
             </a>
           </div>
         </div>
+        <button className="btn btn-lg btn-danger d-block d-md-none">
+          Read More
+        </button>
       </div>
       <section className="container-fluid row d-flex justify-content-center align-items-center">
         <div className="col-md-7 d-flex justify-content-center align-items-center p-5 ">
