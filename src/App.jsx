@@ -64,6 +64,7 @@ function App() {
           </p>
           <button className="btn btn-lg btn-primary rounded">Read More</button>
         </div>
+        <div></div>
       </section>
     </>
   );

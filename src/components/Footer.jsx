@@ -22,19 +22,19 @@ export default function Footer() {
               <hr className="w-100 clearfix d-md-none" />
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">
-                  Products
+                  Products & Services
                 </h6>
                 <p>
-                  <a className="text-white">MDBootstrap</a>
+                  <a className="text-white">cctv installation</a>
                 </p>
                 <p>
-                  <a className="text-white">MDWordPress</a>
+                  <a className="text-white">safe</a>
                 </p>
                 <p>
-                  <a className="text-white">BrandFlow</a>
+                  <a className="text-white">security gate</a>
                 </p>
                 <p>
-                  <a className="text-white">Bootstrap Angular</a>
+                  <a className="text-white">electronics</a>
                 </p>
               </div>
 
@@ -64,7 +64,8 @@ export default function Footer() {
                   Contact
                 </h6>
                 <p>
-                  <i className="fas fa-home mr-3"></i> New York, NY 10012, US
+                  <i className="fas fa-home mr-3"></i>Cobble Wal, Western Cape,
+                  SA
                 </p>
                 <p>
                   <i className="fas fa-envelope mr-3"></i> info@gmail.com
@@ -83,7 +84,7 @@ export default function Footer() {
             <div className="row d-flex align-items-center">
               <div className="col-md-7 col-lg-8 text-center text-md-start">
                 <div className="p-3">
-                  © 2020 Copyright:
+                  © 2025 Copyright:
                   <a className="text-white" href="https://mdbootstrap.com/">
                     Remote Guru Co.
                   </a>
