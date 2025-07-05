@@ -5,12 +5,12 @@ export default function Footer() {
         className="text-center text-lg-start text-white"
         style={{ backgroundColor: "#45526e" }}
       >
-        <div className="container p-4 pb-0">
+        <div className="container p-4 pb-0 d-flex justify-content-space-between align-items-center flex-column">
           <section className="">
             <div className="row">
               <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">
-                  Company name
+                  Remote Guru
                 </h6>
                 <p>
                   Here you can use rows and columns to organize your footer
@@ -31,7 +31,7 @@ export default function Footer() {
                   <a className="text-white">safe</a>
                 </p>
                 <p>
-                  <a className="text-white">security gate</a>
+                  <a className="text-white">security gates</a>
                 </p>
                 <p>
                   <a className="text-white">electronics</a>
@@ -64,11 +64,11 @@ export default function Footer() {
                   Contact
                 </h6>
                 <p>
-                  <i className="fas fa-home mr-3"></i>Cobble Wal, Western Cape,
-                  SA
+                  <i className="fas fa-home mr-3"></i>Cobble Walk,Sonstraal
+                  Heights, Western Cape, SA
                 </p>
                 <p>
-                  <i className="fas fa-envelope mr-3"></i> info@gmail.com
+                  <i className="fas fa-envelope mr-3"></i> info@remoteguru.co.za
                 </p>
                 <p>
                   <i className="fas fa-phone mr-3"></i> + 01 234 567 88
@@ -80,17 +80,17 @@ export default function Footer() {
             </div>
           </section>
           {/* <hr className="my-3"> */}
-          <section className="p-3 pt-0">
-            <div className="row d-flex align-items-center">
-              <div className="col-md-7 col-lg-8 text-center text-md-start">
-                <div className="p-3">
+          <section className="p-0 pt-0 w-100 d-flex justify-content-center align-content-center">
+            <div className="row d-flex align-items-center justify-content-between w-100 m-0">
+              <div className="col-md-6 col-lg-7 text-center text-md-start">
+                <div className="p-0">
                   © 2025 Copyright:
                   <a className="text-white" href="https://mdbootstrap.com/">
                     Remote Guru Co.
                   </a>
                 </div>
               </div>
-              <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <div className="col-md-6 col-lg-5 ml-lg-0 text-center text-md-end">
                 <a
                   className="btn btn-outline-light btn-floating m-1 text-white"
                   role="button"

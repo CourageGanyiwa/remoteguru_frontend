@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import hero from "./assets/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.webp";
 import pic1 from "./assets/3D security verification icon isolated on transparent background.jpg";
+// import pic2 from "./assets/3D security verification icon isolated on transparent background (1).jpg";
+// import "./assets/css/product-grid.css";
 
 function App() {
   const [count, setCount] = useState(0);
