@@ -3,7 +3,9 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import hero from "./assets/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.webp";
-import pic1 from "./assets/3D security verification icon isolated on transparent background.jpg";
+import mainHero from "./assets/store_front.jpeg";
+import pic3 from "./assets/eel.jpg";
+
 // import pic2 from "./assets/3D security verification icon isolated on transparent background (1).jpg";
 // import "./assets/css/product-grid.css";
 
@@ -15,7 +17,7 @@ function App() {
       <div
         className="hero-image d-flex align-items-center justify-content-center"
         style={{
-          backgroundImage: `url(${hero})`,
+          backgroundImage: `url(${mainHero})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100vw",
@@ -45,7 +47,7 @@ function App() {
       <section className="container-fluid row d-flex justify-content-center align-items-center">
         <div className="col-md-7 d-flex justify-content-center align-items-center p-5 ">
           <img
-            src={pic1}
+            src={pic3}
             alt=""
             className="img-fluid w-100 h-100 rounded"
             style={{ width: "100%", height: "auto" }}

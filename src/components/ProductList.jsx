@@ -5,17 +5,23 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import pic1 from "../assets/3D security verification icon isolated on transparent background.jpg";
 import pic2 from "../assets/3D security verification icon isolated on transparent background (1).jpg";
 import "../assets/css/product-grid.css";
+import pic4 from "../assets/cobble_walk.jpg";
+import pic5 from "../assets/store_front.jpeg";
 
 function ProductList() {
   const [products, setProducts] = useState([]);
 
   return (
     <div>
-      <h2 className="mt-4 p-4 text-light">Products and Services</h2>
+      <h2 className="mt-4 p-1 text-light">Products and Services</h2>
       <div className="container-fluid row d-flex justify-content-evenly align-items-center flex-wrap">
-        <div className="card col-md-6 col-12 text-light border-0">
-          <img src={pic2} className="card-img-top w-100" />
-          <div className="card-body bg-dark ">
+        <div className="card col-md-6 col-12 text-light border-0 bg-dark text-light">
+          <img
+            src={pic5}
+            className="img-fluid card-img-top"
+            style={{ height: "400px" }}
+          />
+          <div className="card-body bg-light text-dark">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
@@ -26,9 +32,13 @@ function ProductList() {
             </a>
           </div>
         </div>
-        <div className="card col-md-6 col-12 text-light border-0">
-          <img src={pic2} className="card-img-top" />
-          <div className="card-body bg-dark ">
+        <div className="card col-md-6 col-12 text-light border-0 bg-dark text-light">
+          <img
+            src={pic4}
+            className="img-fluid card-img-top"
+            style={{ height: "400px" }}
+          />
+          <div className="card-body bg-light text-dark">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
@@ -53,7 +63,7 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic2})` }}
+            style={{ backgroundImage: `url(${pic1})` }}
           >
             <div className="product-label">New</div>
             <div className="product-wishlist">
@@ -74,7 +84,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="product-info">
+          <div className="bg-warning text-dark product-info">
             <div className="product-category">Furniture</div>
             <div className="product-name">Oslo Lounge Chair</div>
             <div className="rating">
@@ -124,7 +134,7 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic2})` }}
+            style={{ backgroundImage: `url(${pic1})` }}
           >
             <div className="product-wishlist">
               <svg
@@ -144,7 +154,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="product-info">
+          <div className="product-info bg-warning text-dark">
             <div className="product-category">Electronics</div>
             <div className="product-name">Scandic Pendant Light</div>
             <div className="rating">
@@ -192,7 +202,7 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic2})` }}
+            style={{ backgroundImage: `url(${pic1})` }}
           >
             <div className="product-label">Gadget</div>
             <div className="product-wishlist">
@@ -213,9 +223,9 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="product-info">
+          <div className="product-info bg-warning text-dark">
             <div className="product-category">Remote</div>
-            <div className="product-name">Custom Electric Gate Remote</div>
+            <div className="product-name">Electric Gate Remote</div>
             <div className="rating">
               <div className="stars">
                 <div className="star">★</div>
@@ -261,7 +271,7 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic2})` }}
+            style={{ backgroundImage: `url(${pic1})` }}
           >
             <div className="product-wishlist">
               <svg
@@ -281,11 +291,9 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="product-info">
+          <div className="bg-warning text-dark product-info">
             <div className="product-category">Remote</div>
-            <div className="product-name">
-              Remote Control Device
-            </div>
+            <div className="product-name">Remote Control Device</div>
             <div className="rating">
               <div className="stars">
                 <div className="star">★</div>
@@ -331,7 +339,7 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic2})` }}
+            style={{ backgroundImage: `url(${pic1})` }}
           >
             <div className="product-label">Sale</div>
             <div className="product-wishlist">
@@ -352,7 +360,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="product-info">
+          <div className="bg-warning text-dark product-info">
             <div className="product-category">Furniture</div>
             <div className="product-name">Nordic Coffee Table</div>
             <div className="rating">
@@ -401,7 +409,7 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic2})` }}
+            style={{ backgroundImage: `url(${pic1})` }}
           >
             <div className="product-wishlist">
               <svg
@@ -421,7 +429,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="product-info">
+          <div className="bg-warning text-dark product-info">
             <div className="product-category">Decor</div>
             <div className="product-name">Abstract Wall Art</div>
             <div className="rating">
