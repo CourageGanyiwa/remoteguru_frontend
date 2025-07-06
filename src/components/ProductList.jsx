@@ -12,22 +12,22 @@ function ProductList() {
   const [products, setProducts] = useState([]);
 
   return (
-    <div>
+    <div className="container-fluid">
       <h2 className="mt-4 p-1 text-light">Products and Services</h2>
-      <div className="container-fluid row d-flex justify-content-evenly align-items-center flex-wrap">
+      <div className=" row d-flex justify-content-center align-items-center flex-wrap">
         <div className="card col-md-6 col-12 text-light border-0 bg-dark text-light">
           <img
             src={pic5}
             className="img-fluid card-img-top"
             style={{ height: "400px" }}
           />
-          <div className="card-body bg-light text-dark">
-            <h5 className="card-title">Card title</h5>
+          <div className="card-body bg-warning text-dark">
+            <h5 className="card-title">Products</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card’s content.
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="#" className="btn btn-danger">
               Buy Products
             </a>
           </div>
@@ -38,13 +38,13 @@ function ProductList() {
             className="img-fluid card-img-top"
             style={{ height: "400px" }}
           />
-          <div className="card-body bg-light text-dark">
-            <h5 className="card-title">Card title</h5>
+          <div className="card-body bg-warning text-dark">
+            <h5 className="card-title">Services</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card’s content.
             </p>
-            <a href="#" className="btn btn-primary">
+            <a href="#" className="btn btn-danger">
               Get Service
             </a>
           </div>
@@ -53,9 +53,13 @@ function ProductList() {
       <div className="filter-options">
         <div className="filter-option active">All</div>
         <div className="filter-option">Electronics</div>
-        <div className="filter-option">Installations</div>
+        <div className="filter-option">Safe Locks</div>
         <div className="filter-option">Home Security</div>
         <div className="filter-option">Key Cutting</div>
+        <div className="filter-option">CCTV Monitoring</div>
+        <div className="filter-option">Security Assessments</div>
+        <div className="filter-option">Risk Management</div>
+        <div className="filter-option">Consultations</div>
       </div>
 
       <div className="product-grid">
@@ -63,7 +67,9 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic1})` }}
+            style={{
+              backgroundImage: `url('src/assets/drive600.jpg')`,
+            }}
           >
             <div className="product-label">New</div>
             <div className="product-wishlist">
@@ -84,7 +90,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="bg-warning text-dark product-info">
+          <div className="bg-primary text-dark product-info">
             <div className="product-category">Furniture</div>
             <div className="product-name">Oslo Lounge Chair</div>
             <div className="rating">
@@ -134,7 +140,10 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic1})` }}
+            style={{
+              backgroundImage: `url('src/assets/ezviz-wi-fi-pt-camera-outdoor-c8c-2mp-4mm-lens.jpg')`,
+              width: "100%",
+            }}
           >
             <div className="product-wishlist">
               <svg
@@ -154,7 +163,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="product-info bg-warning text-dark">
+          <div className="product-info bg-primary text-dark">
             <div className="product-category">Electronics</div>
             <div className="product-name">Scandic Pendant Light</div>
             <div className="rating">
@@ -202,7 +211,9 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic1})` }}
+            style={{
+              backgroundImage: `url('src/assets/6946_ET_2-Button-Remote3.jpg')`,
+            }}
           >
             <div className="product-label">Gadget</div>
             <div className="product-wishlist">
@@ -223,7 +234,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="product-info bg-warning text-dark">
+          <div className="product-info bg-primary text-dark">
             <div className="product-category">Remote</div>
             <div className="product-name">Electric Gate Remote</div>
             <div className="rating">
@@ -271,7 +282,9 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic1})` }}
+            style={{
+              backgroundImage: `url('src/assets/lock.jpg')`,
+            }}
           >
             <div className="product-wishlist">
               <svg
@@ -291,7 +304,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="bg-warning text-dark product-info">
+          <div className="bg-primary text-dark product-info">
             <div className="product-category">Remote</div>
             <div className="product-name">Remote Control Device</div>
             <div className="rating">
@@ -339,7 +352,9 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic1})` }}
+            style={{
+              backgroundImage: `url('src/assets/ezviz-wi-fi-battery-powered-camera-bc1c-2mp-28mm-lens-7200mah.jpg')`,
+            }}
           >
             <div className="product-label">Sale</div>
             <div className="product-wishlist">
@@ -360,7 +375,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="bg-warning text-dark product-info">
+          <div className="bg-primary text-dark product-info">
             <div className="product-category">Furniture</div>
             <div className="product-name">Nordic Coffee Table</div>
             <div className="rating">
@@ -409,7 +424,10 @@ function ProductList() {
         <div className="product-card">
           <div
             className="product-image"
-            style={{ backgroundImage: `url(${pic1})` }}
+            style={{
+              backgroundImage: `url('src/assets/et keypad.jpg')`,
+              backgroundSize: "cover",
+            }}
           >
             <div className="product-wishlist">
               <svg
@@ -429,7 +447,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="bg-warning text-dark product-info">
+          <div className="bg-primary text-dark product-info">
             <div className="product-category">Decor</div>
             <div className="product-name">Abstract Wall Art</div>
             <div className="rating">
@@ -444,7 +462,7 @@ function ProductList() {
             </div>
             <div className="price-row">
               <div>
-                <span className="price">$129</span>
+                <span className="price">R129</span>
               </div>
               <button
                 className="add-to-cart"

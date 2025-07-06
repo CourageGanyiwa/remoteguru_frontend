@@ -1,9 +1,17 @@
+import logo from "../assets/remotegurulogo_0x90.jpg";
+
 export default function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-danger bg-gradient fixed-top mb-4">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
+            <img
+              src={logo}
+              alt=""
+              style={{ width: "30px" }}
+              className="rounded-circle me-2"
+            />
             Remote Guru
           </a>
           <button

@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div
-        className="hero-image d-flex align-items-center justify-content-center"
+        className="hero-image position-relative d-flex align-items-center justify-content-center"
         style={{
           backgroundImage: `url(${mainHero})`,
           backgroundSize: "cover",
@@ -23,42 +23,64 @@ function App() {
           width: "100vw",
           height: "100vh",
           marginTop: "55px",
+          marginBottom: 0,
           padding: 0,
           borderBottom: "1px solid red",
         }}
       >
-        <div className="card bg-dark w-50 d-none d-md-block">
-          <h5 className="card-header text-white bg-gradient">Featured</h5>
-          <div className="card-body text-white">
-            <h5 className="card-title text-warning">Secure Your Home</h5>
-            <p className="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
-            </p>
-            <a href="#" className="btn btn-danger text-dark">
-              <i className="bi bi-arrow-right-circle-fill"></i> Explore Now
-            </a>
+        <div
+          className="overlay position-absolute top-0 start-0 w-100 h-100"
+          style={{
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            zIndex: 1,
+          }}
+        ></div>
+
+        <div
+          style={{
+            position: "relative",
+            zIndex: 2,
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <div className="card bg-dark w-50 d-none d-md-block">
+            <h5 className="card-header text-white bg-danger bg-gradient">
+              Featured
+            </h5>
+            <div className="card-body text-white">
+              <h5 className="card-title text-warning">Secure Your Home</h5>
+              <p className="card-text">
+                Welcome to the home of Remote Guru. We have been trading for
+                over 20 years and have a wealth of experience to assist you on
+                selecting the best security products for your home.
+              </p>
+              <a href="#" className="btn btn-warning text-dark">
+                <i className="bi bi-arrow-right-circle-fill"></i> Explore Now
+              </a>
+            </div>
           </div>
+          <button className="btn btn-lg btn-danger d-block d-md-none text-dark fw-bold">
+            Read More
+          </button>
         </div>
-        <button className="btn btn-lg btn-danger d-block d-md-none">
-          Read More
-        </button>
       </div>
-      <section className="container-fluid row d-flex justify-content-center align-items-center">
-        <div className="col-md-7 d-flex justify-content-center align-items-center p-5 ">
+      <section className=" row d-flex justify-content-center align-items-center mt-2 bg-white bg-gradient p-3">
+        <div className="col-md-7 d-flex justify-content-center align-items-center p-2">
           <img
             src={pic3}
             alt=""
             className="img-fluid w-100 h-100 rounded"
-            style={{ width: "100%", height: "auto" }}
+            style={{ width: "100vh", height: "auto", border: "3px solid grey" }}
           />
         </div>
         <div
-          className="container-fluid col-md-5 text-white bg-dark p-5 d-flex flex-column justify-content-center align-items-center "
+          className="container-fluid col-md-5 bg-light p-3 d-flex flex-column justify-content-center align-items-center "
           style={{ borderBottom: "3px solid grey" }}
         >
-          <p className=" mb-4 text-light">
-            <span className="text-warning text-uppercase fs-lg fw-bold">
+          <p className=" mb-4 text-dark">
+            <span className="text-danger text-uppercase fs-lg fw-bold fs-5">
               Remote Guru
             </span>{" "}
             is your go-to platform for finding home security products and
@@ -66,7 +88,9 @@ function App() {
             smart locks, or professional installation services, we've got you
             covered.
           </p>
-          <button className="btn btn-lg btn-primary rounded">Read More</button>
+          <button className="btn btn-lg btn-info bg-gradient rounded">
+            Read More
+          </button>
         </div>
         <div></div>
       </section>
