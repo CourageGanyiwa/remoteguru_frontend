@@ -68,7 +68,7 @@ function ProductList() {
           <div
             className="product-image"
             style={{
-              backgroundImage: `url('src/assets/drive600.jpg')`,
+              backgroundImage: `url('../assets/drive600.jpg')`,
             }}
           >
             <div className="product-label">New</div>
@@ -212,7 +212,7 @@ function ProductList() {
           <div
             className="product-image"
             style={{
-              backgroundImage: `url('src/assets/6946_ET_2-Button-Remote3.jpg')`,
+              backgroundImage: `url('../assets/6946_ET_2-Button-Remote3.jpg')`,
             }}
           >
             <div className="product-label">Gadget</div>
