@@ -7,6 +7,12 @@ import pic2 from "../assets/3D security verification icon isolated on transparen
 import "../assets/css/product-grid.css";
 import pic4 from "../assets/cobble_walk.jpg";
 import pic5 from "../assets/store_front.jpeg";
+import pic6 from "../assets/drive600.jpg";
+import pic7 from "../assets/ezviz-wi-fi-pt-camera-outdoor-c8c-2mp-4mm-lens.jpg";
+import pic8 from "../assets/6946_ET_2-Button-Remote3.jpg";
+import pic9 from "../assets/lock.jpg";
+import pic10 from "../assets/ezviz-wi-fi-battery-powered-camera-bc1c-2mp-28mm-lens-7200mah.jpg";
+import pic11 from "../assets/et keypad.jpg";
 
 function ProductList() {
   const [products, setProducts] = useState([]);
@@ -68,7 +74,7 @@ function ProductList() {
           <div
             className="product-image"
             style={{
-              backgroundImage: `url('../assets/drive600.jpg')`,
+              backgroundImage: `url(${pic6})`,
             }}
           >
             <div className="product-label">New</div>
@@ -141,7 +147,7 @@ function ProductList() {
           <div
             className="product-image"
             style={{
-              backgroundImage: `url('src/assets/ezviz-wi-fi-pt-camera-outdoor-c8c-2mp-4mm-lens.jpg')`,
+              backgroundImage: `url(${pic7})`,
               width: "100%",
             }}
           >
@@ -212,7 +218,7 @@ function ProductList() {
           <div
             className="product-image"
             style={{
-              backgroundImage: `url('../assets/6946_ET_2-Button-Remote3.jpg')`,
+              backgroundImage: `url(${pic8})`,
             }}
           >
             <div className="product-label">Gadget</div>
@@ -283,7 +289,7 @@ function ProductList() {
           <div
             className="product-image"
             style={{
-              backgroundImage: `url('src/assets/lock.jpg')`,
+              backgroundImage: `url(${pic9})`,
             }}
           >
             <div className="product-wishlist">
@@ -305,8 +311,8 @@ function ProductList() {
             </div>
           </div>
           <div className="bg-primary text-dark product-info">
-            <div className="product-category">Remote</div>
-            <div className="product-name">Remote Control Device</div>
+            <div className="product-category">Camera</div>
+            <div className="product-name">Battery Powered Wifi Camera</div>
             <div className="rating">
               <div className="stars">
                 <div className="star">★</div>
@@ -353,7 +359,7 @@ function ProductList() {
           <div
             className="product-image"
             style={{
-              backgroundImage: `url('src/assets/ezviz-wi-fi-battery-powered-camera-bc1c-2mp-28mm-lens-7200mah.jpg')`,
+              backgroundImage: `url(${pic10})`,
             }}
           >
             <div className="product-label">Sale</div>
@@ -425,7 +431,7 @@ function ProductList() {
           <div
             className="product-image"
             style={{
-              backgroundImage: `url('src/assets/et keypad.jpg')`,
+              backgroundImage: `url(${pic11})`,
               backgroundSize: "cover",
             }}
           >
