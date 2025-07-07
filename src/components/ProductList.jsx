@@ -33,7 +33,7 @@ function ProductList() {
               Some quick example text to build on the card title and make up the
               bulk of the card’s content.
             </p>
-            <a href="#" className="btn btn-danger">
+            <a href="#" className="btn btn-dark">
               Buy Products
             </a>
           </div>
@@ -50,8 +50,8 @@ function ProductList() {
               Some quick example text to build on the card title and make up the
               bulk of the card’s content.
             </p>
-            <a href="#" className="btn btn-danger">
-              Get Service
+            <a href="#" className="btn btn-dark">
+              Get Services
             </a>
           </div>
         </div>

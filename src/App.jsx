@@ -68,8 +68,8 @@ function App() {
           </button>
         </div>
       </div>
-      <section className=" row d-flex justify-content-center align-items-center mt-2 bg-white bg-gradient p-3">
-        <div className="col-md-7 d-flex justify-content-center align-items-center p-2">
+      <section className=" row d-flex justify-content-center align-items-center mt-2 bg-light bg-gradient p-3">
+        <div className="col-md-7 d-flex justify-content-center align-items-center p-3">
           <img
             src={pic3}
             alt=""
@@ -78,7 +78,7 @@ function App() {
           />
         </div>
         <div
-          className="container-fluid col-md-5 bg-light p-3 d-flex flex-column justify-content-center align-items-center "
+          className="container-fluid col-md-5 bg-light p-3 d-flex flex-column justify-content-center align-items-center mb-4"
           style={{ borderBottom: "3px solid grey" }}
         >
           <p className=" mb-4 text-dark">
@@ -90,7 +90,7 @@ function App() {
             smart locks, or professional installation services, we've got you
             covered.
           </p>
-          <button className="btn btn-lg btn-info bg-gradient rounded">
+          <button className="btn btn-dark text-light bg-gradient rounded mb-5">
             Read More
           </button>
         </div>
