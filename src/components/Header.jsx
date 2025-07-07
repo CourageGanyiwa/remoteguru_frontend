@@ -3,7 +3,7 @@ import logo from "../assets/remotegurulogo_0x90.jpg";
 export default function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-danger bg-gradient fixed-top mb-4">
+      <nav className="navbar navbar-expand-lg bg-light bg-gradient fixed-top mb-4">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
@@ -50,12 +50,12 @@ export default function Header() {
                 <ul className="dropdown-menu ">
                   <li>
                     <a className="dropdown-item" href="#">
-                      Action
+                      Products & Services
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Another action
+                      Contact Us
                     </a>
                   </li>
                   <li>
@@ -63,7 +63,7 @@ export default function Header() {
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Something else here
+                      About Us
                     </a>
                   </li>
                 </ul>

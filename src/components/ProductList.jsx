@@ -96,7 +96,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="bg-primary text-dark product-info">
+          <div className="bg-success text-dark product-info">
             <div className="product-category">Furniture</div>
             <div className="product-name">Oslo Lounge Chair</div>
             <div className="rating">
@@ -169,7 +169,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="product-info bg-primary text-dark">
+          <div className="product-info bg-light text-dark">
             <div className="product-category">Electronics</div>
             <div className="product-name">Scandic Pendant Light</div>
             <div className="rating">
@@ -310,7 +310,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="bg-primary text-dark product-info">
+          <div className="bg-danger text-dark product-info">
             <div className="product-category">Camera</div>
             <div className="product-name">Battery Powered Wifi Camera</div>
             <div className="rating">
@@ -381,7 +381,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="bg-primary text-dark product-info">
+          <div className="bg-warning text-dark product-info">
             <div className="product-category">Furniture</div>
             <div className="product-name">Nordic Coffee Table</div>
             <div className="rating">
@@ -453,7 +453,7 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="bg-primary text-dark product-info">
+          <div className="bg-info text-dark product-info">
             <div className="product-category">Decor</div>
             <div className="product-name">Abstract Wall Art</div>
             <div className="rating">

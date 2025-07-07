@@ -46,17 +46,19 @@ function App() {
           }}
         >
           <div className="card bg-dark w-50 d-none d-md-block">
-            <h5 className="card-header text-white bg-danger bg-gradient">
+            <h5 className="card-header text-dark bg-warning bg-gradient">
               Featured
             </h5>
             <div className="card-body text-white">
-              <h5 className="card-title text-warning">Secure Your Home</h5>
+              <h5 className="card-title text-info">
+                Ready To Secure Your Home ?
+              </h5>
               <p className="card-text">
                 Welcome to the home of Remote Guru. We have been trading for
                 over 20 years and have a wealth of experience to assist you on
                 selecting the best security products for your home.
               </p>
-              <a href="#" className="btn btn-warning text-dark">
+              <a href="#" className="btn btn-info text-dark">
                 <i className="bi bi-arrow-right-circle-fill"></i> Explore Now
               </a>
             </div>
