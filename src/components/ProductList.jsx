@@ -20,7 +20,7 @@ function ProductList() {
   return (
     <div className="container-fluid">
       <h2
-        className="mt-4 p-1 text-warning text-center"
+        className="mt-1 p-1 text-warning text-center"
         style={{ fontFamily: "Crimson Pro", serif: "serif", fontSize: "48px" }}
       >
         Products and Services

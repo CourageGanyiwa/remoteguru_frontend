@@ -70,7 +70,7 @@ function App() {
         </div>
       </div>
       <section
-        className=" row d-flex justify-content-center align-items-center mt-2 p-3"
+        className=" row d-flex justify-content-center align-items-center mt-2 p-4"
         style={{
           backgroundImage: `url(${secondHero})`,
           backgroundSize: "cover",
@@ -99,7 +99,7 @@ function App() {
             smart locks, or professional installation services, we've got you
             covered.
           </p>
-          <button className="btn btn-dark text-light bg-gradient rounded">
+          <button className="btn btn-warning text-dark bg-gradient rounded">
             Read More
           </button>
         </div>
