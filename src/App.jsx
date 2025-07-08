@@ -64,7 +64,7 @@ function App() {
               </a>
             </div>
           </div>
-          <button className="btn btn-lg btn-danger d-block d-md-none text-dark fw-bold">
+          <button className="btn btn-lg btn-light d-block d-md-none text-dark fw-bold">
             Read More
           </button>
         </div>
@@ -89,8 +89,8 @@ function App() {
             }}
           />
         </div>
-        <div className="container-fluid col-md-5 bg-dark p-3 d-flex flex-column justify-content-center align-items-center">
-          <p className="text-light">
+        <div className="container-fluid col-md-5 bg-light p-1 d-flex flex-column justify-content-center align-items-center rounded">
+          <p className="text-dark text-center">
             <span className="text-danger text-uppercase fs-lg fw-bold fs-5">
               Remote Guru
             </span>{" "}
