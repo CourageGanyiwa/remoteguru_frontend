@@ -5,6 +5,7 @@ import "./App.css";
 import hero from "./assets/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.webp";
 import mainHero from "./assets/store_front.jpeg";
 import pic3 from "./assets/eel.jpg";
+import secondHero from "./assets/colors.jpg";
 
 // import pic2 from "./assets/3D security verification icon isolated on transparent background (1).jpg";
 // import "./assets/css/product-grid.css";
@@ -45,7 +46,7 @@ function App() {
             justifyContent: "center",
           }}
         >
-          <div className="card bg-dark w-50 d-none d-md-block">
+          <div className="card bg-dark opacity-75 w-50 d-none d-md-block">
             <h5 className="card-header text-dark bg-warning bg-gradient">
               Featured
             </h5>
@@ -68,20 +69,28 @@ function App() {
           </button>
         </div>
       </div>
-      <section className=" row d-flex justify-content-center align-items-center mt-2 bg-light bg-gradient p-3">
+      <section
+        className=" row d-flex justify-content-center align-items-center mt-2 p-3"
+        style={{
+          backgroundImage: `url(${secondHero})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="col-md-7 d-flex justify-content-center align-items-center p-3">
           <img
             src={pic3}
             alt=""
             className="img-fluid w-100 h-100 rounded"
-            style={{ width: "100vh", height: "auto", border: "3px solid grey" }}
+            style={{
+              width: "100vh",
+              height: "auto",
+              border: "3px solid white",
+            }}
           />
         </div>
-        <div
-          className="container-fluid col-md-5 bg-light p-3 d-flex flex-column justify-content-center align-items-center mb-4"
-          style={{ borderBottom: "3px solid grey" }}
-        >
-          <p className=" mb-4 text-dark">
+        <div className="container-fluid col-md-5 bg-dark p-3 d-flex flex-column justify-content-center align-items-center">
+          <p className="text-light">
             <span className="text-danger text-uppercase fs-lg fw-bold fs-5">
               Remote Guru
             </span>{" "}
@@ -90,7 +99,7 @@ function App() {
             smart locks, or professional installation services, we've got you
             covered.
           </p>
-          <button className="btn btn-dark text-light bg-gradient rounded mb-5">
+          <button className="btn btn-dark text-light bg-gradient rounded">
             Read More
           </button>
         </div>

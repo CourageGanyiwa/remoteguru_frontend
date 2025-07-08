@@ -19,7 +19,12 @@ function ProductList() {
 
   return (
     <div className="container-fluid">
-      <h2 className="mt-4 p-1 text-light">Products and Services</h2>
+      <h2
+        className="mt-4 p-1 text-warning text-center"
+        style={{ fontFamily: "Crimson Pro", serif: "serif", fontSize: "48px" }}
+      >
+        Products and Services
+      </h2>
       <div className=" row d-flex justify-content-center align-items-center flex-wrap">
         <div className="card col-md-6 col-12 text-light border-0 bg-dark text-light">
           <img
