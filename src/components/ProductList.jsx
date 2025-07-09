@@ -32,8 +32,44 @@ function ProductList() {
             className="img-fluid card-img-top"
             style={{ height: "400px" }}
           />
-          <div className="card-body bg-warning text-dark">
-            <h5 className="card-title">Products</h5>
+          <div className="card-body bg-warning bg-gradient rounded text-dark">
+            <h5 className="card-title">Remotes</h5>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+            <a href="#" className="btn btn-dark">
+              Buy Remotes
+            </a>
+          </div>
+        </div>
+        <div className="card col-md-6 col-12 text-light border-0 bg-dark text-light">
+          <img
+            src={pic4}
+            className="img-fluid card-img-top"
+            style={{ height: "400px" }}
+          />
+          <div className="card-body bg-warning rounded bg-gradient text-dark">
+            <h5 className="card-title">Key Cutting</h5>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card’s content.
+            </p>
+            <a href="#" className="btn btn-dark">
+              Get Services
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className=" row d-flex justify-content-center align-items-center flex-wrap">
+        <div className="card col-md-6 col-12 text-light border-0 bg-dark text-light">
+          <img
+            src={pic5}
+            className="img-fluid card-img-top"
+            style={{ height: "400px" }}
+          />
+          <div className="card-body bg-warning text-dark rounded">
+            <h5 className="card-title">CCTV</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card’s content.
@@ -49,8 +85,8 @@ function ProductList() {
             className="img-fluid card-img-top"
             style={{ height: "400px" }}
           />
-          <div className="card-body bg-warning text-dark">
-            <h5 className="card-title">Services</h5>
+          <div className="card-body bg-warning rounded text-dark">
+            <h5 className="card-title">Installations</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card’s content.
@@ -316,8 +352,8 @@ function ProductList() {
             </div>
           </div>
           <div className="bg-danger text-dark product-info">
-            <div className="product-category">Camera</div>
-            <div className="product-name">Battery Powered Wifi Camera</div>
+            <div className="product-category">Lock</div>
+            <div className="product-name">BBL BRASS LOCKS</div>
             <div className="rating">
               <div className="stars">
                 <div className="star">★</div>
