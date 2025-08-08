@@ -7,7 +7,7 @@ import pic2 from "../assets/3D security verification icon isolated on transparen
 import "../assets/css/product-grid.css";
 import pic4 from "../assets/cobble_walk.jpg";
 import pic5 from "../assets/store_front.jpeg";
-import pic6 from "../assets/drive600.jpg";
+import pic6 from "../assets/remote-guru-images-assets/SFT35ERN.jpg";
 import pic7 from "../assets/ezviz-wi-fi-pt-camera-outdoor-c8c-2mp-4mm-lens.jpg";
 import pic8 from "../assets/6946_ET_2-Button-Remote3.jpg";
 import pic9 from "../assets/lock.jpg";
@@ -137,9 +137,9 @@ function ProductList() {
               </svg>
             </div>
           </div>
-          <div className="bg-success text-dark product-info">
-            <div className="product-category">Furniture</div>
-            <div className="product-name">Oslo Lounge Chair</div>
+          <div className="bg-light text-dark product-info">
+            <div className="product-category">Small Safe</div>
+            <div className="product-name">BBL MEDIUM SAFE</div>
             <div className="rating">
               <div className="stars">
                 <div className="star">★</div>
@@ -152,8 +152,10 @@ function ProductList() {
             </div>
             <div className="price-row">
               <div>
-                <span className="price">R349</span>
-                <span className="original-price">R429</span>
+                <span className="price">R2700</span>
+                <span className="original-price" style={{ display: "none" }}>
+                  R2700
+                </span>
               </div>
               <button
                 className="add-to-cart"

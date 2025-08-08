@@ -10,12 +10,14 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import pic2 from "./assets/3D security verification icon isolated on transparent background (1).jpg";
 import "./assets/css/product-grid.css";
+import Allproducts from "./components/Allproducts.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Header />
     <App />
     <ProductList />
+    <Allproducts />
     <Footer />
   </StrictMode>
 );
