@@ -8,7 +8,7 @@ export default function Allproducts() {
     const fetchData = () => {
       const fetchProducts = async () => {
         try {
-          const response = await fetch("https://remotegurubackend.onrender.com/api/products");
+          const response = await fetch("https://remotegurubackend.onrender.com/api/products/");
           const data = await response.json();
           setProducts(data);
         } catch (error) {
