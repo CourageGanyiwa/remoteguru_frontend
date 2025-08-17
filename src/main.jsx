@@ -11,6 +11,7 @@ import Footer from "./components/Footer.jsx";
 import pic2 from "./assets/3D security verification icon isolated on transparent background (1).jpg";
 import "./assets/css/product-grid.css";
 import Allproducts from "./components/Allproducts.jsx";
+import Form from "./components/Form.jsx"; // Importing the Form component
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById("root")).render(
     <App />
     <ProductList />
     <Allproducts />
+    <Form /> {/* Using the Form component */}
     <Footer />
   </StrictMode>
 );
