@@ -32,7 +32,7 @@ function ProductList() {
             className="img-fluid card-img-top"
             style={{ height: "400px" }}
           />
-          <div className="card-body bg-warning bg-gradient rounded text-dark">
+          <div className="card-body bg-danger bg-gradient rounded text-dark">
             <h5 className="card-title">Remotes</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
@@ -49,7 +49,7 @@ function ProductList() {
             className="img-fluid card-img-top"
             style={{ height: "400px" }}
           />
-          <div className="card-body bg-warning rounded bg-gradient text-dark">
+          <div className="card-body bg-danger rounded bg-gradient text-dark">
             <h5 className="card-title">Key Cutting</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
