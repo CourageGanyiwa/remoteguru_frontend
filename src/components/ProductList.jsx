@@ -68,7 +68,7 @@ function ProductList() {
             className="img-fluid card-img-top"
             style={{ height: "400px" }}
           />
-          <div className="card-body bg-warning text-dark rounded">
+          <div className="card-body bg-danger text-dark rounded">
             <h5 className="card-title">CCTV</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
@@ -85,7 +85,7 @@ function ProductList() {
             className="img-fluid card-img-top"
             style={{ height: "400px" }}
           />
-          <div className="card-body bg-warning rounded text-dark">
+          <div className="card-body bg-danger rounded text-dark">
             <h5 className="card-title">Installations</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
